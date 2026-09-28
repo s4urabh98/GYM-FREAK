@@ -35,3 +35,47 @@ GymFreak/
 ├── uploads/             # Directory for uploaded videos and images
 ├── package.json         # Project dependencies
 └── .env                 # Environment variables (not included in repo)
+# GymFreak
+
+GymFreak is a gym management web application built with Node.js, Express, EJS, and MongoDB. It supports both member and admin workflows, including signup/login, membership tracking, workout video management, equipment records, and admin dashboard statistics.
+
+## Features
+
+- Member registration and login
+- Membership plans: cardio, exercise, and yoga
+- Time-slot tracking for gym access
+- Admin dashboard with member statistics
+- Member management and status updates
+- Workout video upload and listing
+- Equipment management
+- Flash-based feedback messages
+- Session-based authentication using Express sessions and Passport
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- EJS templates
+- Passport.js
+- bcryptjs
+- JWT (for auth token generation)
+- Multer for file uploads
+
+## Project Structure
+
+```bash
+GymFreak/
+├── app.js
+├── package.json
+├── .env
+├── config/
+├── controllers/
+├── middlewares/
+├── models/
+├── public/
+├── routes/
+├── views/
+├── schema.js
+├── package-lock.json
+└── node_modules/
